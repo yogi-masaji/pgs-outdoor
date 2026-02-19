@@ -11,7 +11,7 @@ class ParkingController extends Controller
     public function scanWithAI(Request $request)
     {
         // Pastikan API Key aktif di Google AI Studio
-        $apiKey = "AIzaSyCb7TfPml3__jA0RvFRCDD2f61y1F_WS_Y";
+        $apiKey = "-";
 
         // Gunakan gemini-2.0-flash untuk kemampuan vision terbaik
         $modelName = "gemini-2.0-flash";
